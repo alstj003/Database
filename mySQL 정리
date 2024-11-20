@@ -1,0 +1,28 @@
+1. show databases;  => 현재 작업된 db확인
+
+2. create database DB명;   => DB생성
+
+3.use DB명;    => db open
+
+4.create table 테이블명(
+
+  필드1 자료형,
+
+  필드2 자료형);
+
+5. 테이블 구조확인:  desc 테이블명
+
+6. 테이블 확인 : show table명
+
+7. insert into 테이블명 values(값1,값2..)레코드 삽입
+
+8. 목록확인   select 필드명 from 테이블명
+
+9. 레크드 수정 update 테이블명 set 변경필드명=변경값 where 조건;
+
+10.행 삭제  delete from 테이블명 where 조건
+
+11.테이블 삭제  drop table 테이블명; 
+
+12. DB삭제 drop database DB명
+
